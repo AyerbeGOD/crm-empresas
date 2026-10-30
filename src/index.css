@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .entrada {
+        @apply w-full rounded-lg border border-stone-300 bg-white px-3 py-2 text-sm outline-none transition
+            focus:border-marca-500 focus:ring-2 focus:ring-marca-100 disabled:bg-stone-100;
+    }
+    .etiqueta { @apply mb-1 block text-xs font-medium text-stone-600; }
+    .tarjeta { @apply rounded-xl border border-stone-200 bg-white; }
+    .btn { @apply inline-flex items-center justify-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium transition disabled:opacity-50; }
+    .btn-primario { @apply btn bg-marca-500 text-white hover:bg-marca-600; }
+    .btn-secundario { @apply btn border border-stone-300 bg-white text-stone-700 hover:bg-stone-50; }
+    .btn-whatsapp { @apply btn bg-[#1f8f4e] text-white hover:bg-[#187a41]; }
+    .btn-peligro { @apply btn border border-red-200 bg-white text-red-700 hover:bg-red-50; }
+}
