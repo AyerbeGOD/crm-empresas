@@ -29,7 +29,7 @@ Plan de implementación de CRM para una tienda de **celulares, accesorios y serv
 
 ## Cómo encaja con la app Fonazo
 
-El CRM **no reemplaza** la app de inventario y punto de venta de este repositorio; la complementa:
+El CRM **no reemplaza** la app de inventario y punto de venta Fonazo (repositorio aparte, `fonazo-inventario`); la complementa:
 
 | Función | Dónde vive |
 |---|---|
